@@ -1,0 +1,15 @@
+
+.container{
+    max-width: 1300px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    grid-gap: 4px;
+    padding-bottom: 50px;
+}
+.container button{
+    background-color: rgba(128, 128, 128, 0.205);
+    text-align: center;
+    
+    padding: 10px 0;
+}
