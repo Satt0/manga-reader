@@ -24,7 +24,7 @@ export async function getStaticProps(ctx){
     
        const {name}=ctx.params
        
-       const chaps=await fetch(`https://shielded-shore-59465.herokuapp.com/chap/list?name=${name}`).then(res=>res.json())
+       const chaps=await fetch(`http:localhost:3003/chap/list?name=${name}`).then(res=>res.json())
 
         return {
            props:{
